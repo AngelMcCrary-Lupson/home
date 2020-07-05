@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@400;500;700&display=swap');
+
+.Page {
+  background-color: #FBE8A6;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  top: -32px; /* There's whitespace at top of page?? */
+  font-family: 'Red Hat Display', Helvetica;
+  padding-bottom: 10%;
+}
+
+span {
+  color: #F4976C;
+}
+
+.Title {
+  color: #303C6C;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 30px;
+  margin-left: 8%;
+  margin-right: 8%;
+  color: #303C6C;
+}
+
+input, textarea, button {
+  background-color: #303C6C;
+  color: #DEF2F1;
+  font-size: 30px;
+  box-sizing: border-box;
+  width : 450px;
+  padding: 0;
+  margin: 0;
+}
+
+button {
+  width : 150px;
+}
+
+#Message {
+  height: 200px;
+  font-size: 20px;
+}
+
+.Socials {
+  padding-top: 55%;
+  padding-left: 12%;
+  padding-right: 12%;
+  height: 64px;
+  width: 64px;
+  color: #303C6C;
+}
+
+hr {
+  margin-top: 5%;
+}
