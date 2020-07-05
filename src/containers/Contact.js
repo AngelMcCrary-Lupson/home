@@ -3,32 +3,32 @@ import './Contact.css';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import linkedin from '../linkedin.png';
 import github from '../github.png';
-const phpURL = "http://students.washington.edu/angelml/Personal%20Website/contact.php";
+// const phpURL = "http://students.washington.edu/angelml/Personal%20Website/contact.php";
 // add loading circle and validation for sending a message
 class OtherProjects extends Component {
-  formSubmission = (event) => {
-    event.preventDefault();
-    const data = new FormData(event.target);
-//this should be fixed when I put everything on one host
-    fetch(phpURL, {
-      method: 'POST',
-      body: data,
-      mode: 'cors',
-      headers: {
-      'Content-Type': 'text/plain'
-      // 'Content-Type': 'application/x-www-form-urlencoded',
-    },
-  }).then(function(parseText) {
-      let text = parseText;
-      console.log(text);
-      return text;
-    }
-  ).then(function(response) {
-      alert(response);
-      console.log("Sent");
-    });
-
-  }
+//   formSubmission = (event) => {
+//     event.preventDefault();
+//     const data = new FormData(event.target);
+// //this should be fixed when I put everything on one host
+//     fetch(phpURL, {
+//       method: 'POST',
+//       body: data,
+//       mode: 'cors',
+//       headers: {
+//       'Content-Type': 'text/plain'
+//       // 'Content-Type': 'application/x-www-form-urlencoded',
+//     },
+//   }).then(function(parseText) {
+//       let text = parseText;
+//       console.log(text);
+//       return text;
+//     }
+//   ).then(function(response) {
+//       alert(response);
+//       console.log("Sent");
+//     });
+//
+//   }
 
 
 
