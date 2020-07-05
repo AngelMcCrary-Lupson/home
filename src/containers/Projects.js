@@ -33,7 +33,9 @@ class Projects extends Component {
                 <p className="Desc">Generates random lyrics from a user’s
                                     choice of music artist.</p>
                 <p className="Tools">HTML, CSS, Javascript, Musixmatch Web API</p>
-                <img className="exlink" src={exlink}/>
+                <a href="https://angelmccrary-lupson.github.io/random-lyric-generator/" target="_blank">
+                  <img className="exlink" src={exlink}/>
+                </a>
               </Col>
           </Row>
           </Grid>
