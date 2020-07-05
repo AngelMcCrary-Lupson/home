@@ -1,23 +1,29 @@
 {
   "files": {
-    "main.css": "/home/static/css/main.5f361e03.chunk.css",
-    "main.js": "/home/static/js/main.a80688bd.chunk.js",
-    "main.js.map": "/home/static/js/main.a80688bd.chunk.js.map",
+    "main.css": "/home/static/css/main.f927e7b1.chunk.css",
+    "main.js": "/home/static/js/main.6a8437ef.chunk.js",
+    "main.js.map": "/home/static/js/main.6a8437ef.chunk.js.map",
     "runtime-main.js": "/home/static/js/runtime-main.1ebb12cf.js",
     "runtime-main.js.map": "/home/static/js/runtime-main.1ebb12cf.js.map",
-    "static/js/2.5f4523cd.chunk.js": "/home/static/js/2.5f4523cd.chunk.js",
-    "static/js/2.5f4523cd.chunk.js.map": "/home/static/js/2.5f4523cd.chunk.js.map",
+    "static/css/2.22d6b5ec.chunk.css": "/home/static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.690f181e.chunk.js": "/home/static/js/2.690f181e.chunk.js",
+    "static/js/2.690f181e.chunk.js.map": "/home/static/js/2.690f181e.chunk.js.map",
     "index.html": "/home/index.html",
-    "precache-manifest.7ec097e1fc3276e99aa32febdae6be16.js": "/home/precache-manifest.7ec097e1fc3276e99aa32febdae6be16.js",
+    "precache-manifest.64bfe21ee4bc96a9d02791d8642b8138.js": "/home/precache-manifest.64bfe21ee4bc96a9d02791d8642b8138.js",
     "service-worker.js": "/home/service-worker.js",
-    "static/css/main.5f361e03.chunk.css.map": "/home/static/css/main.5f361e03.chunk.css.map",
-    "static/js/2.5f4523cd.chunk.js.LICENSE.txt": "/home/static/js/2.5f4523cd.chunk.js.LICENSE.txt",
-    "static/media/logo.svg": "/home/static/media/logo.5d5d9eef.svg"
+    "static/css/2.22d6b5ec.chunk.css.map": "/home/static/css/2.22d6b5ec.chunk.css.map",
+    "static/css/main.f927e7b1.chunk.css.map": "/home/static/css/main.f927e7b1.chunk.css.map",
+    "static/js/2.690f181e.chunk.js.LICENSE.txt": "/home/static/js/2.690f181e.chunk.js.LICENSE.txt",
+    "static/media/lyric.png": "/home/static/media/lyric.599dab1c.png",
+    "static/media/maxresdefault.jpg": "/home/static/media/maxresdefault.d8784c76.jpg",
+    "static/media/resume.pdf": "/home/static/media/resume.97c8c84b.pdf",
+    "static/media/scraper.png": "/home/static/media/scraper.52b35b95.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1ebb12cf.js",
-    "static/js/2.5f4523cd.chunk.js",
-    "static/css/main.5f361e03.chunk.css",
-    "static/js/main.a80688bd.chunk.js"
+    "static/css/2.22d6b5ec.chunk.css",
+    "static/js/2.690f181e.chunk.js",
+    "static/css/main.f927e7b1.chunk.css",
+    "static/js/main.6a8437ef.chunk.js"
   ]
 }
