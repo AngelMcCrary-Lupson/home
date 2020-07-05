@@ -39,16 +39,10 @@ class OtherProjects extends Component {
         <p>I’m always looking for <span>new opportunities</span> to learn and grow,
             so feel free to get in touch
             if you have any questions or anything else.</p>
-        <p>Either fill out this <span>form</span> or email me at <span>angel.mccrary.lupson@gmail.com </span>
+        <p>Email me <a href="mailto:angel.mccrary.lupson@gmail.com"><span>here </span></a>
             and let’s chat!</p>
         <Grid>
         <Row center="xs">
-        // <form onSubmit={this.formSubmission}>
-        //   <Col><input type="text" name="name" placeholder="Name" required></input></Col>
-        //   <Col><input type="text" name="email" placeholder="Email" required></input></Col>
-        //   <Col><textarea id="Message" name="message" placeholder="Message"></textarea></Col>
-        //   <input type="submit" name="submit" value="Submit"></input>
-        // </form>
         </Row>
         <hr />
         <Row center="xs">
@@ -61,5 +55,12 @@ class OtherProjects extends Component {
     )
   }
 }
+
+// <form onSubmit={this.formSubmission}>
+//   <Col><input type="text" name="name" placeholder="Name" required></input></Col>
+//   <Col><input type="text" name="email" placeholder="Email" required></input></Col>
+//   <Col><textarea id="Message" name="message" placeholder="Message"></textarea></Col>
+//   <input type="submit" name="submit" value="Submit"></input>
+// </form>
 
 export default OtherProjects;
