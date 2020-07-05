@@ -43,12 +43,12 @@ class OtherProjects extends Component {
             and let’s chat!</p>
         <Grid>
         <Row center="xs">
-        <form onSubmit={this.formSubmission}>
-          <Col><input type="text" name="name" placeholder="Name" required></input></Col>
-          <Col><input type="text" name="email" placeholder="Email" required></input></Col>
-          <Col><textarea id="Message" name="message" placeholder="Message"></textarea></Col>
-          <input type="submit" name="submit" value="Submit"></input>
-        </form>
+        // <form onSubmit={this.formSubmission}>
+        //   <Col><input type="text" name="name" placeholder="Name" required></input></Col>
+        //   <Col><input type="text" name="email" placeholder="Email" required></input></Col>
+        //   <Col><textarea id="Message" name="message" placeholder="Message"></textarea></Col>
+        //   <input type="submit" name="submit" value="Submit"></input>
+        // </form>
         </Row>
         <hr />
         <Row center="xs">

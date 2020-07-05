@@ -9,16 +9,16 @@ class NavBar extends Component {
         <Grid>
           <Row between="xs">
             <Col xs={3}>
-              <a href="home/#home">Home</a>
+              <a href="/#home">Home</a>
             </Col>
             <Col xs={3}>
-              <a href="home/#about">About</a>
+              <a href="/#about">About</a>
             </Col>
             <Col xs={3}>
-              <a href="home/#projects">Projects</a>
+              <a href="/#projects">Projects</a>
             </Col>
             <Col xs={3}>
-              <a href="home/#contact">Contact</a>
+              <a href="/#contact">Contact</a>
             </Col>
           </Row>
         </Grid>
