@@ -15,7 +15,8 @@ class OtherProjects extends Component {
                   <h2 className="Title"><a href="/blackjack">Virtual Blackjack</a></h2>
                   <p className="Desc">Web based game  of video blackjack</p>
                   <p className="Tools">HTML, CSS, Javascript</p>
-                  <img className="exlink" src={exlink}/>
+                  <a href="https://angelmccrary-lupson.github.io/virtual-blackjack/" target="_blank">
+                    <img className="exlink" src={exlink}/></a>
                 </div>
               </Col>
               <Col xs={3}>
