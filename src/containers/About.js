@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './About.css';
-import ProfilePic from '../maxresdefault.jpg';
+import ProfilePic from '../headshot.jpg';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import resume from '../resume.pdf';
 
@@ -28,7 +28,7 @@ class About extends Component {
                                 keep scrolling or check out my <a href={resume} target="_blank"><span>resume</span></a>.</p>
           </Col>
           <Col xs={4}>
-
+            <img className="Profile" src={ProfilePic}/>
           </Col>
         </Row>
         </div>
@@ -36,5 +36,5 @@ class About extends Component {
     )
   }
 }
-        // <!--    <img className="Profile" src={ProfilePic}/> -->
+
 export default About;
