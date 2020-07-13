@@ -31,11 +31,13 @@ class OtherProjects extends Component {
               </Col>
               <Col xs={3}>
                 <div className="ProjBox">
-                  <h2 className="Title">Give & Get Help</h2>
-                  <p className="Desc">Was the designer and researcher of a team building a website aimed
-                      at centralizing accurate information in regards to natural disasters.</p>
-                  <p className="Tools">Photoshop</p>
-                  <img className="exlink" src={exlink}/>
+                  <h2 className="Title">Team Fight Tactics Analyzer</h2>
+                  <p className="Desc">Python program with a simple GUI that processes data from
+                  Riot's competitve match data for the game Team Fight Tactics. The data is then
+                  visualized with a graph.</p>
+                  <p className="Tools">Python, MatLabPlot, PySimpleGui, Riot API</p>
+                  <a href="https://github.com/AngelMcCrary-Lupson/tft-patch-comp-analyzer" target="_blank">
+                    <img className="exlink" src={exlink}/></a>
                 </div>
               </Col>
             </Row>
