@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import './Projects.css';
 import Scraper from '../scraper.png';
-import Lyric from '../lyric.png';
+import Eco from '../ecoeats.jpg';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 import exlink from '../Ex-Link-Dark.png';
 
@@ -26,18 +26,18 @@ class Projects extends Component {
             </Row>
             <Row id="Project2">
               <Col xs className="Project Left">
-                <img  className="ScreenShot" src={Lyric}/>
+                <img  className="ScreenShot" src={Eco}/>
               </Col>
               <Col xs className="Project Right">
-                <h2 className="Title">Random Lyric Generator</h2>
-                <p className="Desc">Generates random lyrics from a user’s
-                                    choice of music artist.</p>
-                <p className="Tools">HTML, CSS, Javascript, Musixmatch Web API</p>
-                <a href="https://angelmccrary-lupson.github.io/random-lyric-generator/" target="_blank">
+                <h2 className="Title">Eco-Eats</h2>
+                <p className="Desc">Web browser extension & website that informs users of the carbon
+                                    emissions the foods they shop for on Amazon.com. </p>
+                <p className="Tools">Python, Flask, HTML, CSS, Javascript, Bootstrap</p>
+                <a href="https://ecoeats.pythonanywhere.com/" target="_blank">
                   <img className="exlink" src={exlink}/>
                 </a>
               </Col>
-          </Row>
+            </Row>
           </Grid>
       </div>
     )
